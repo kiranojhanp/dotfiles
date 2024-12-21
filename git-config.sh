@@ -1,8 +1,10 @@
 # Set up the default branch for any new project to "master"
 git config --global init.defaultBranch master
 
-# Enable colors in command output
-git config --global color.uni auto
+# Enable colors in command output and setup default editor
+git config --global color.ui true
+git config --global core.editor code
+
 
 # Read and setup real name and email
 read -p "Enter real name: " fullname
