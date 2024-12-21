@@ -17,6 +17,7 @@ source ~/.zsh_aliases # initialize zsh aliases
 # User configurations
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#663399,standout"
 eval "$(/opt/homebrew/bin/brew shellenv)" # configure homebrew
+eval "$(ssh-agent -s)" # start ssh agent in background
 
 # Import aliases
 source ~/.zsh_aliases
