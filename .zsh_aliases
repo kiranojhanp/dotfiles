@@ -1,0 +1,20 @@
+# git aliases
+alias -g ga="git add"
+alias -g gc="git commit -m"
+alias -g gagc='git add . && git commit -m '
+alias -g gs="git status"
+alias -g gpush="git push -u origin"
+alias -g glog="git log --oneline --graph --decorate --color"
+alias -g gb="git branch"
+
+# remove folder
+alias -g rmrf='rm -rf '
+
+# brew
+alias -g bi='HOMEBREW_NO_AUTO_UPDATE=1 brew install '
+
+# direnv
+alias -g di='echo dotenv > .envrc && touch .env && direnv allow'
+
+# folder locations
+alias -g dev='cd ~/development'

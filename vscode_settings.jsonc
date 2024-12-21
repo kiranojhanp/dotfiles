@@ -1,0 +1,52 @@
+{
+    // editor settings
+    "editor.fontSize": 15,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontWeight": "normal",
+    "editor.lineHeight": 1.6,
+    "editor.wrappingStrategy": "advanced",
+    "editor.renderLineHighlight": "none",
+    "editor.matchBrackets": "never",
+    "editor.cursorStyle": "line-thin",
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.cursorBlinking": "solid",
+    "editor.wordWrap": "on",
+    "editor.inlayHints.enabled": "on",
+    "editor.stickyScroll.enabled": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.autohide": true,
+    "editor.minimap.enabled": false,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    // terminal settings
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "terminal.integrated.fontSize": 16,
+    // workbench settings
+    "workbench.sideBar.location": "right",
+    "workbench.editor.enablePreview": false,
+    "workbench.statusBar.visible": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Kiranord",
+    "workbench.startupEditor": "none",
+    // explorer and file settings
+    "explorer.confirmDelete": false,
+    "files.autoSave": "afterDelay",
+    // Window and Command Settings
+    "window.commandCenter": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    // Editor Language Specific Settings
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    // Miscellaneous Settings
+    "breadcrumbs.enabled": false,
+    "diffEditor.ignoreTrimWhitespace": false
+}
